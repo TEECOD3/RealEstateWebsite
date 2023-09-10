@@ -9,7 +9,7 @@ type Props = {};
 
 const Hersection = (props: Props) => {
   return (
-    <div className="flex flex-col md:flex-row min-h-screen max-w-7xl mx-auto md:min-h-[80vh] font-open_sans  items-center justify-center md:gap-x-10 px-6 sm:px-10 md:px-0">
+    <div className="flex flex-col md:flex-row  max-w-7xl mx-auto min-h-[80vh] font-open_sans  items-center justify-center md:gap-x-10 px-6 sm:px-10 md:px-0">
       <div className="w-full">
         <div className="font-merriweather max-md:w-full ">
           <h3 className="text-5xl lg:text-7xl max-md:text-center leading-[50px]  md:leading-[65px] font-black">
@@ -23,16 +23,16 @@ const Hersection = (props: Props) => {
           autem officia id, perspiciatis eius quaerat at dicta quam.
         </p>
 
-        <div className="w-full bg-gray-300 mt-4 md:mt-8 py-4 px-3 flex gap-x-5">
+        <div className="w-full bg-gray-300 mt-4 md:mt-8 py-4 px-3 flex gap-x-5 flex-col md:flex-row items-center justify-center">
           <div className="">
             <ComboboxDemo />
           </div>
-          <div className="">
+          <div className="mt-4 md:mt-0">
             <InputWithButton />
           </div>
         </div>
       </div>
-      <div className="relative w-full h-[500px]">
+      <div className="relative aspect-auto w-full md:h-[500px] max-md:h-[200px] mt-6 md:mt-0">
         <Image
           src={heroimage}
           fill

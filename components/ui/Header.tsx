@@ -7,7 +7,7 @@ type Props = {};
 
 const Header = (props: Props) => {
   return (
-    <header className="font-open_sans flex justify-between items-center py-10 px-4 md:px-0 max-w-7xl mx-auto">
+    <header className="font-open_sans flex justify-between items-center py-10 px-6 md:px-0 max-w-7xl mx-auto">
       <div className="flex justify-between items-center w-1/2">
         <div className="flex-1">
           <LogoSVG />
