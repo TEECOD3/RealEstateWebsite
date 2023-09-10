@@ -11,13 +11,13 @@ type Props = {};
 
 const TopDealsCarousel = (props: Props) => {
   const breakpoints = {
-    300: {
+    480: {
       slidesPerView: 1,
       spaceBetween: 10,
     },
     768: {
-      slidesPerView: 1,
-      spaceBetween: 10,
+      slidesPerView: 2,
+      spaceBetween: 15,
     },
     1024: {
       slidesPerView: 4,
@@ -29,10 +29,10 @@ const TopDealsCarousel = (props: Props) => {
     },
   };
   return (
-    <div className="mt-10 mx-auto ">
+    <div className="mt-10 mx-auto flex items-center justify-center ">
       <Swiper
         breakpoints={breakpoints}
-        className="mySwiper transition-all flex items-center"
+        className="mySwiper transition-all flex items-center justify-center"
         loop={true}
         direction="horizontal"
         speed={5000}
@@ -44,7 +44,7 @@ const TopDealsCarousel = (props: Props) => {
         }}
         modules={[Autoplay, Pagination, Navigation]}
       >
-        <SwiperSlide className="my-4">
+        <SwiperSlide>
           <Slide />
         </SwiperSlide>
         <SwiperSlide>
