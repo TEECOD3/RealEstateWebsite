@@ -1,10 +1,7 @@
 "use client";
 import React from "react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-// Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Import Swiper styles
 import "swiper/css";
 import Slide from "./Slide";
 type Props = {};
@@ -20,12 +17,12 @@ const TopDealsCarousel = (props: Props) => {
       spaceBetween: 15,
     },
     1024: {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 3,
+      spaceBetween: 10,
     },
     1300: {
-      slidesPerView: 4,
-      spaceBetween: 30,
+      slidesPerView: 3,
+      spaceBetween: 10,
     },
   };
   return (

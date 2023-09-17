@@ -1,10 +1,13 @@
+"use client";
 import React from "react";
 import { Button } from "./ui/button";
 import TopDealsCarousel from "./TopDealsCarousel";
+import { useRouter } from "next/navigation";
 
 type Props = {};
 
 const TopDeals = (props: Props) => {
+  const router = useRouter();
   return (
     <div className="bg-gray-100 py-10 flex items-center justify-center min-h-screen md:min-h-[80vh] font-open_sans w-full ">
       <div className="max-w-[80%] mx-auto">
@@ -20,6 +23,9 @@ const TopDeals = (props: Props) => {
             </p>
             <div className="w-full flex items-center md:justify-end">
               <Button
+                onClick={() => {
+                  router.push("/HomeList");
+                }}
                 variant="ghost"
                 className=" border-bluecols text-xs border-[2px] text-bluecols mt-4"
               >

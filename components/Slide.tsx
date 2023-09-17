@@ -6,8 +6,8 @@ type Props = {};
 
 const Slide = (props: Props) => {
   return (
-    <div className="rounded-lg shadow-xl overflow-hidden group cursor-pointer w-[260px]">
-      <div className="relative h-[200px] ">
+    <div className="rounded-lg h-[500px] shadow-xl overflow-hidden group cursor-pointer w-[350px]">
+      <div className="relative h-[250px] w-full">
         <Image
           src={image}
           alt="apartmwnt image"
