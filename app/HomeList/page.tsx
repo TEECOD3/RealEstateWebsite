@@ -6,8 +6,8 @@ type Props = {};
 
 const page = (props: Props) => {
   return (
-    <section className="max-w-7xl mx-auto">
-      <div className="w-full py-16 flex flex-col text-cemter items-center justify-center">
+    <section className="">
+      <div className="max-w-7xl mx-auto py-16 flex flex-col text-cemter items-center justify-center">
         <h1 className=" text-3xl lg:text-5xl font-black capitalize">
           search for an offer
         </h1>

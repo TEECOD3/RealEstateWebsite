@@ -10,11 +10,11 @@ const TopDealsCarousel = (props: Props) => {
   const breakpoints = {
     480: {
       slidesPerView: 1,
-      spaceBetween: 10,
+      spaceBetween: 20,
     },
     768: {
       slidesPerView: 2,
-      spaceBetween: 15,
+      spaceBetween: 30,
     },
     1024: {
       slidesPerView: 3,
@@ -22,7 +22,7 @@ const TopDealsCarousel = (props: Props) => {
     },
     1300: {
       slidesPerView: 3,
-      spaceBetween: 10,
+      spaceBetween: 15,
     },
   };
   return (

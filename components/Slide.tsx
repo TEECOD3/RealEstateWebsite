@@ -6,7 +6,7 @@ type Props = {};
 
 const Slide = (props: Props) => {
   return (
-    <div className="rounded-lg h-[500px] shadow-xl overflow-hidden group cursor-pointer w-[350px]">
+    <div className="rounded-sm h-[400px] mx-auto w-80 shadow-xl overflow-hidden group cursor-pointer flex flex-col">
       <div className="relative h-[250px] w-full">
         <Image
           src={image}
@@ -18,7 +18,7 @@ const Slide = (props: Props) => {
           className="object-cover group-hover:scale-105 transition-all duration-150 bg-top h-full"
         />
       </div>
-      <div className="mt-4 px-3 pb-3">
+      <div className=" px-3 py-8 flex-1 flex flex-col items-start justify-center">
         <p className="text-xs">
           Lorem ipsum dolor sit amet consectetur a modi nulla{" "}
         </p>

@@ -12,7 +12,7 @@ export function InputWithButton() {
 
       <Button
         type="submit"
-        className="flex gap-x-3 items-center justify-center text-xs bg-bluecols flex-1"
+        className="flex gap-x-2 items-center justify-center text-xs bg-bluecols flex-1 px-8"
       >
         <HiSearch /> search
       </Button>
